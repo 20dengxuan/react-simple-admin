@@ -28,12 +28,12 @@ export default defineConfig(async ({ command }) => {
           changeOrigin: true,
           ws: true,
         },
-        '/storage-oss': {
-          target: 'https://st-image.3-e.cn',
-          changeOrigin: true,
-          ws: true,
-          rewrite: (path) => path.replace(/^\/storage-oss/, ''),
-        },
+        // '/storage-oss': {
+        //   target: 'https://st-image.3-e.cn',
+        //   changeOrigin: true,
+        //   ws: true,
+        //   rewrite: (path) => path.replace(/^\/storage-oss/, ''),
+        // },
       },
     },
     plugins: plugins,
