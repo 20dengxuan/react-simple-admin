@@ -4,10 +4,6 @@ import storage from 'redux-persist/lib/storage';
 import reducers from './modules';
 import { TypedUseSelectorHook, useSelector as selector, useDispatch as dispatch } from 'react-redux';
 
-type GetStateFunType = typeof store.getState;
-
-type IRootState = ReturnType<GetStateFunType>;
-
 // redux 持久化配置
 const persistConfig = {
   key: 'root',
@@ -20,6 +16,10 @@ const store = configureStore({
   reducer: persistReducerConfig,
   middleware: (getDefaultMiddleware) => getDefaultMiddleware({ serializableCheck: false }),
 });
+
+type GetStateFunType = typeof store.getState;
+
+type IRootState = ReturnType<GetStateFunType>;
 
 // 创建持久化 store
 const persistor = persistStore(store);

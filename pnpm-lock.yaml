@@ -17,9 +17,6 @@ dependencies:
   axios:
     specifier: ^1.6.2
     version: 1.6.2
-  immer:
-    specifier: ^10.0.3
-    version: 10.0.3
   lodash-es:
     specifier: ^4.17.21
     version: 4.17.21
@@ -47,9 +44,6 @@ dependencies:
   redux-persist:
     specifier: ^6.0.0
     version: 6.0.0(react@18.2.0)(redux@4.2.1)
-  redux-thunk:
-    specifier: ^3.1.0
-    version: registry.npmmirror.com/redux-thunk@3.1.0(redux@4.2.1)
   screenfull:
     specifier: ^6.0.2
     version: 6.0.2
@@ -2386,10 +2380,6 @@ packages:
     resolution: {integrity: sha512-g7dmpshy+gD7mh88OC9NwSGTKoc3kyLAZQRU1mt53Aw/vnvfXnbC+F/7F7QoYVKbV+KNvJx8wArewKy1vXMtlg==}
     engines: {node: '>= 4'}
     dev: true
-
-  /immer@10.0.3:
-    resolution: {integrity: sha512-pwupu3eWfouuaowscykeckFmVTpqbzW+rXFCX8rQLkZzM9ftBmU/++Ra+o+L27mz03zJTlyV4UUr+fdKNffo4A==}
-    dev: false
 
   /import-fresh@3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
@@ -4822,17 +4812,6 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/react-is/-/react-is-16.13.1.tgz}
     name: react-is
     version: 16.13.1
-    dev: false
-
-  registry.npmmirror.com/redux-thunk@3.1.0(redux@4.2.1):
-    resolution: {integrity: sha512-NW2r5T6ksUKXCabzhL9z+h206HQw/NJkcLm1GPImRQ8IzfXwRGqjVhKJGauHirT0DAuyy6hjdnMZaRoAcy0Klw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/redux-thunk/-/redux-thunk-3.1.0.tgz}
-    id: registry.npmmirror.com/redux-thunk/3.1.0
-    name: redux-thunk
-    version: 3.1.0
-    peerDependencies:
-      redux: ^5.0.0
-    dependencies:
-      redux: 4.2.1
     dev: false
 
   registry.npmmirror.com/redux-thunk@3.1.0(redux@5.0.0):

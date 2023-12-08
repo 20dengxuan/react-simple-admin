@@ -23,7 +23,6 @@
     "react-router-dom": "^6.20.0",
     "redux": "^4.2.1",
     "redux-persist": "^6.0.0",
-    "redux-thunk": "^3.1.0",
     "screenfull": "^6.0.2"
   },
   "devDependencies": {

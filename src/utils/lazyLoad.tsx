@@ -6,7 +6,7 @@ import { Spin } from 'antd';
  * @param {Element} Comp 需要访问的组件
  * @returns element
  */
-const lazyLoad = (Comp: React.LazyExoticComponent<any>): React.ReactNode => {
+const lazyLoad = (Comp: React.LazyExoticComponent<React.FC<any>>): React.ReactNode => {
   return (
     <Suspense
       fallback={
