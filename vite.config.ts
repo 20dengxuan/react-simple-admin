@@ -11,6 +11,7 @@ export default defineConfig(async ({ command }) => {
   const plugins = await createPlugins({ isBuild });
 
   return {
+    base: '/',
     resolve: {
       alias: [
         {
